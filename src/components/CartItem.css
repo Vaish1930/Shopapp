@@ -1,0 +1,27 @@
+.cart_item {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.23);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.cart_itemLeft {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cart_itemRight {
+  display: flex;
+  flex: 0.7;
+}
+
+.cart_itemImage {
+  width: 100%;
+  object-fit: contain;
+}

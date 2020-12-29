@@ -1,0 +1,91 @@
+.login {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container {
+  background-color: #fff;
+  display: flex;
+  width: 28%;
+  min-width: 300px;
+  height: 350px;
+  padding: 50px 36px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 28px;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.18);
+}
+
+.form_title {
+  margin: 10px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.input_wrapper {
+  width: 74%;
+  margin-top: 18px;
+}
+
+.input_container {
+  display: flex;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+
+.input_container > .icon_left {
+  margin-right: 10px;
+  color: #6c757d;
+}
+
+.input_container > input {
+  border: none;
+  outline-width: 0;
+  flex: 1;
+  background: transparent;
+}
+
+.input_container > .icon_right {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #6c757d;
+}
+
+.input_container > .check_icon {
+  color: #00cc00;
+}
+
+.error {
+  color: #ff0040;
+}
+
+.login_button {
+  margin-top: 20px;
+  background-color: #f90643;
+  border: none;
+  outline-width: 0;
+  width: 74%;
+  padding: 12px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.login_button:hover {
+  background-color: #000;
+}
+
+.signup {
+  margin-top: 28px;
+}

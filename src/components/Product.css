@@ -1,0 +1,11 @@
+.product {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e6194d;
+  color: #fff;
+}

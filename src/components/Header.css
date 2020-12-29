@@ -1,0 +1,69 @@
+.header {
+  top: 0;
+  z-index: 1;
+  position: sticky;
+  background-color: #f90643;
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.logoTitle {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart > .MuiButtonBase-root > .MuiIconButton-label > .MuiSvgIcon-root {
+  color: #fff !important;
+}
+
+.badge {
+  padding: 2px 3px;
+  border-radius: 3px;
+  background-color: #ffc107;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_searchInput {
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  outline-width: 0;
+  border: none;
+}
+
+.signin {
+  text-decoration: none;
+  color: #e2dada;
+  margin: 0 20px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.signin:hover {
+  color: #fff;
+}
